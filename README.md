@@ -44,6 +44,9 @@ The simulation verifies that theoretical Bayes calculations match empirical freq
 
 **Deep Insight:** This challenges **intuitive reasoning about conditional probability**. The counterintuitive answer: **switching wins 2/3 of the time**, staying wins 1/3. Why? After you pick a door, the probability your choice has the prize is 1/3. The host's action doesn't change this; it only reveals information. Switching pivots you to the remaining unopened door, which has a 2/3 chance. The code simulates 10,000 trials and visualizes the convergence to the theoretical 2:1 ratio. Essential for understanding how **conditioning and information reveal hidden probabilities**.
 
+**Visualizer:**
+<img width="1000" height="500" alt="Monty_hall_convergenceRateMatlab" src="https://github.com/user-attachments/assets/504d200d-461d-4f83-b308-e440d1895e9b" />
+
 ---
 
 #### 4. Naive Bayes Spam Filter
@@ -105,6 +108,9 @@ For independent events, the simulation empirically validates set theory operatio
 - Illustrates **standard error** proportional to $1/\sqrt{n}$
 
 This is the intuitive proof that empirical averages converge to expected values—crucial for understanding why simulations work.
+**Visualizer:**
+
+<img width="1000" height="400" alt="Law of large numbers theore using biased coin" src="https://github.com/user-attachments/assets/4b2f21fc-0a2b-4a2b-a7e5-46ed869e54ae" />
 
 ---
 
